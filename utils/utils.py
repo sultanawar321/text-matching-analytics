@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("../src/")
+
 from app import TextMatchingFuzzyWuzzy
 
 matcher = TextMatchingFuzzyWuzzy()

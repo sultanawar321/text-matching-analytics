@@ -1,4 +1,5 @@
 import re
+import os
 from loguru import logger
 import pandas as pd
 
@@ -29,7 +30,7 @@ class TextMatchingFuzzyWuzzy:
         """
         Load input calls data file.
         """
-        input_data = pd.read_csv("data.csv")
+        input_data = pd.read_csv(os.path.join("..", "data", "data.csv"))
         input_data = input_data[input_data["TEXT"].notnull()]
         return input_data
 
