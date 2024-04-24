@@ -109,7 +109,7 @@ if __name__ == "__main__":
         lambda x: matcher.missing_words(x, matcher.matching_words)
     )
 
-    # check the results
+    # Inspect the results
     logger.info(f"total calls: {len(calls_data)}")
     logger.info(
         f"Unique matching words: {calls_data['MATCHING_TEXT'].apply(tuple).unique()}"

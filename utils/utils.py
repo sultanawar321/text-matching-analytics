@@ -4,6 +4,7 @@ sys.path.append("../src/")
 
 from app import TextMatchingFuzzyWuzzy
 
+# Instantiate the matcher class
 matcher = TextMatchingFuzzyWuzzy()
 
 
@@ -26,7 +27,7 @@ def test_fuzzy_wuzyy():
     # Define test input parameters
     features = ["account", "name", "phone number", "address", "postcode"]
     document = ["customer", "account", "issues", "address", "payments"]
-    match = 60  # Set a low match threshold for testing purposes
+    match = 60  # Set a matching threshold for testing purposes
     # Call the function with test inputs
     result = matcher.fuzzy_wuzyy(features, document, match)
     # Define expected output based on the provided test input
