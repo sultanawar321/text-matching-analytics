@@ -5,7 +5,7 @@
 ## The repo structure is as follows:
 
 1) data
-- data.csv: a sample of call transcripts data taken from Kaggle[[https://www.kaggle.com/datasets/mealss/call-transcripts-scam-determinations]]
+- data.csv: a sample of call transcripts data downloaded from [Kaggle](https://www.kaggle.com/datasets/mealss/call-transcripts-scam-determinations)
 
 2) src
 - app.py: a Python module includes the class and functions to load, process, and find matching compliance words using fuzzywuzzy algorthim
