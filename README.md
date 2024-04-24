@@ -1,6 +1,6 @@
 ## This repository includes a text matching analytics project which uses fuzzywuzzy algorithm to match compliance words from a text document. 
 
-## Consider a scenario where you would like to build a text matching system to identify compliant conversations in a call centre and investigate that agents ask security questions to customers related to < account, address, email, phone number, postcode > to ensure high quality assurance rate. 
+- Consider a scenario where you would like to build a text matching system to identify compliant conversations in a call centre and investigate that agents ask security questions to customers related to < account, address, email, phone number, postcode >. This ensures high quality assurance rate. 
 
 ## The repo structure is as follows:
 
